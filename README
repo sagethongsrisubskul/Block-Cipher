@@ -1,0 +1,23 @@
+WSU-CRYPT
+Sage Thongsrisubskul
+s.thongsrisubskul@wsu.edu
+
+BUILDING:
+
+	run the makefile
+
+INSTRUCTIONS:
+
+	input ./wsucryopt -d to decrypt
+
+	run with no arguments to encrypt
+
+FILES:
+
+main.c - contains the main function
+crypt.c - contains functions used in wsu-crypt algorithm
+crypt.h - header file for functions in crypt.c
+Makefile - makefile
+plaintext.txt - contains plaintext
+key.txt - contains key
+cyphertext.txt - contains cyphertext
